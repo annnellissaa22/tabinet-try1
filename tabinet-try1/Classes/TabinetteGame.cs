@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Rebar;
 
 namespace tabinet_try1.Classes
 {
@@ -50,15 +51,16 @@ namespace tabinet_try1.Classes
             {
                 return deck.CardsCount() == 0; 
             }
-        public void SelectOneCard(List<Card> Hand)
-        {
-            
-        }
+      
 
 
         public void PlayRound()
         {
-           
+            int currentPlayer = 0;
+            if(currentPlayer %2 == 0)
+            {
+
+            }
         }
     }
 }

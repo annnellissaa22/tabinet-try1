@@ -21,5 +21,17 @@ namespace tabinet_try1.Classes
             Hand.Add(card);
         }
 
+        public Card SelectCard(int index)
+        {
+            if (index >= 0 && index < Hand.Count)
+            {
+                Card selectedCard = Hand[index];
+                return selectedCard;
+            }
+            else
+            {
+                return null; 
+            }
+        }
     }
 }
