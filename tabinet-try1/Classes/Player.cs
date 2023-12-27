@@ -20,7 +20,6 @@ namespace tabinet_try1.Classes
         {
             Hand.Add(card);
         }
-
         public Card SelectCard(int index)
         {
             if (index >= 0 && index < Hand.Count)
@@ -30,7 +29,7 @@ namespace tabinet_try1.Classes
             }
             else
             {
-                return null; 
+                return null;
             }
         }
     }

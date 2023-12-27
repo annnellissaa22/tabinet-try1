@@ -51,16 +51,13 @@ namespace tabinet_try1.Classes
             {
                 return deck.CardsCount() == 0; 
             }
-      
 
 
         public void PlayRound()
         {
-            int currentPlayer = 0;
-            if(currentPlayer %2 == 0)
-            {
+           
 
-            }
+           
         }
     }
 }

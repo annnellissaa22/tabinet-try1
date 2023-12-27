@@ -17,6 +17,12 @@ namespace tabinet_try1
         Player player1 = new Player("Player 1");
         Player player2 = new Player("Player 2");
 
+        Player currentPlayer = new Player("CurrentPlayer");
+        
+
+        Card selectedCard;
+        int suma = 0;
+
         Board board = new Board();
 
         public void Initial()

@@ -19,5 +19,17 @@ namespace tabinet_try1.Classes
         {
             Tabla.Add(card);
         }
+        public Card SelectCard(int index)
+        {
+            if (index >= 0 && index < Tabla.Count)
+            {
+                Card selectedCard = Tabla[index];
+                return selectedCard;
+            }
+            else
+            {
+                return null;
+            }
+        }
     }
 }
