@@ -19,7 +19,7 @@ namespace tabinet_try1.Classes
         {
             Tabla.Add(card);
         }
-        public Card SelectCard(int index)
+       /* public Card SelectCard(int index)
         {
             if (index >= 0 && index < Tabla.Count)
             {
@@ -30,6 +30,6 @@ namespace tabinet_try1.Classes
             {
                 return null;
             }
-        }
+        }*/
     }
 }

@@ -50,7 +50,6 @@
     <Compile Include="Classes\Card.cs" />
     <Compile Include="Classes\Deck.cs" />
     <Compile Include="Classes\Player.cs" />
-    <Compile Include="Classes\TabinetteGame.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

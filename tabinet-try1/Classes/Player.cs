@@ -10,6 +10,7 @@ namespace tabinet_try1.Classes
     {
         public string Name { get; set; }
         public List<Card> Hand { get; set; }
+        public int Points { get; set; } = 0;
 
         public Player(string name)
         {
@@ -19,18 +20,7 @@ namespace tabinet_try1.Classes
         public void AddCardToHand(Card card)
         {
             Hand.Add(card);
-        }
-        public Card SelectCard(int index)
-        {
-            if (index >= 0 && index < Hand.Count)
-            {
-                Card selectedCard = Hand[index];
-                return selectedCard;
-            }
-            else
-            {
-                return null;
-            }
+
         }
     }
 }
